@@ -1,5 +1,10 @@
+require "guard/compat/plugin"
+
 module Guard
-  class Webpack < ::Guard.const_get(::Guard.const_defined?(:Plugin) ? :Plugin : :Guard)
+  class Delayed < Plugin
+
+module Guard
+  class Webpack < Plugin
     require 'guard/webpack/version'
     require 'guard/webpack/runner'
 
