@@ -1,9 +1,6 @@
 require "guard/compat/plugin"
 
 module Guard
-  class Delayed < Plugin
-
-module Guard
   class Webpack < Plugin
     require 'guard/webpack/version'
     require 'guard/webpack/runner'
